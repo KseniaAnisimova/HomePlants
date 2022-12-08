@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
+
+.nav-link {
+    font-family: 'Playfair Display';
+    font-size: 1.5rem;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display';
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    font-size: 4rem;
+}
+
+p {
+    margin: 0;
+}
+
+p,
+.btn {
+    font-family: 'Roboto Mono';
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.btn {
+    font-size: 1.2rem;
+    border-radius: 0;
+    margin-top: 1rem;
+}
+
+header {
+    height: 100vh;
+    background-image: url('./img/img/main.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header,
+.about,
+.catalog,
+.CTA,
+.blog {
+    margin-bottom: 8rem;
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+}
+
+.card-img-top {
+    border-radius: 0px;
+}
+
+.card {
+    border: 0px;
+}
+
+.card-body {
+    padding: 1rem 0;
+}
+
+.catalog-header {
+    margin-bottom: 4rem;
+}
+
+.CTA {
+    background-image: url('./img/img/form_bg.png');
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 8rem;
+    
+}
+
+.contacts {
+    background-image: url(./img/img/contact_img.png);
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5rem;
+}
+
+/* --------FAQ-------- */
+
+.accordion-button {
+    font-family: 'Roboto Mono';
+    font-size: 1,5rem;
+}
+
+.accordion-body {
+    font-family: 'Roboto Mono';
+    font-size: 1rem;
+    
+}
+
+h4 {
+    font-size: 1,5rem;
+}
+
+p {
+    font-size: 1.2rem
+}
